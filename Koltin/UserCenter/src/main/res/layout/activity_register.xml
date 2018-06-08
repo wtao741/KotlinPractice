@@ -12,4 +12,9 @@
         android:layout_height="wrap_content"
         android:text="注册"/>
 
+    <Button
+        android:id="@+id/btToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast"/>
 </LinearLayout>
