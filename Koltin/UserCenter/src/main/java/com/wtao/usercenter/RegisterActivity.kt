@@ -4,10 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_register.*
-import org.jetbrains.anko.alert
-import org.jetbrains.anko.noButton
-import org.jetbrains.anko.toast
-import org.jetbrains.anko.yesButton
+import org.jetbrains.anko.*
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -24,6 +21,11 @@ class RegisterActivity : AppCompatActivity() {
                 yesButton { toast("Oh…") }
                 noButton {}
             }.show()
+        }
+
+        btJump.setOnClickListener {
+            //startActivity(intentFor<TestActivity>("id" to 5))
+            startActivity<TestActivity>("id" to 10)
         }
     }
 }
