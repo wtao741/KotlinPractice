@@ -1,7 +1,8 @@
-package com.wtao.usercenter
+package com.wtao.usercenter.ui
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.wtao.usercenter.R
 import org.jetbrains.anko.toast
 
 class TestActivity : AppCompatActivity() {
